@@ -1,0 +1,66 @@
+{
+    "from": "User",
+    "inherits": "Elegoo Neptune 4 Pro (0.2 nozzle)",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "PRINT_END",
+    "machine_max_acceleration_extruding": [
+        "100000",
+        "10000"
+    ],
+    "machine_max_acceleration_x": [
+        "100000",
+        "10000"
+    ],
+    "machine_max_acceleration_y": [
+        "100000",
+        "10000"
+    ],
+    "machine_max_jerk_e": [
+        "10",
+        "5"
+    ],
+    "machine_max_jerk_x": [
+        "500",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "500",
+        "9"
+    ],
+    "machine_max_jerk_z": [
+        "10",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "120",
+        "60"
+    ],
+    "machine_max_speed_x": [
+        "1000",
+        "500"
+    ],
+    "machine_max_speed_y": [
+        "1000",
+        "500"
+    ],
+    "machine_start_gcode": ";Nozzle diameter = [nozzle_diameter]\n;Filament type = [filament_type]\n;Filament name = [filament_vendor] \n;Filament weight = [filament_density]\nPRINT_START BED_TEMP=[hot_plate_temp_initial_layer] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] AREA_START={first_layer_print_min[0]},{first_layer_print_min[1]} AREA_END={first_layer_print_max[0]},{first_layer_print_max[1]} BED_MESH=adaptive",
+    "min_layer_height": [
+        "0.05"
+    ],
+    "name": "Fast - Elegoo Neptune 4 Pro (0.2 nozzle) - Connected",
+    "print_host": "192.168.0.21",
+    "printer_settings_id": "Fast - Elegoo Neptune 4 Pro (0.2 nozzle) - Connected",
+    "retract_lift_enforce": [
+        "Top and Bottom"
+    ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "version": "2.0.2.0",
+    "wipe": [
+        "0"
+    ]
+}

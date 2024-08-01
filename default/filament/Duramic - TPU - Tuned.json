@@ -1,0 +1,58 @@
+{
+    "fan_min_speed": [
+        "80"
+    ],
+    "filament_cost": [
+        "30"
+    ],
+    "filament_density": [
+        "1.22"
+    ],
+    "filament_flow_ratio": [
+        "1.08"
+    ],
+    "filament_max_volumetric_speed": [
+        "1.8"
+    ],
+    "filament_retraction_length": [
+        "0.5"
+    ],
+    "filament_settings_id": [
+        "Duramic - TPU - Tuned"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_RETRACTION RETRACT_LENGTH=[filament_retraction_length] RETRACT_SPEED=[filament_retraction_speed] UNRETRACT_EXTRA_LENGTH=[retract_restart_extra] UNRETRACT_SPEED=[filament_deretraction_speed]"
+    ],
+    "filament_type": [
+        "TPU95A"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "35"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "35"
+    ],
+    "inherits": "Elegoo Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Duramic - TPU - Tuned",
+    "nozzle_temperature": [
+        "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "220"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "overhang_fan_threshold": [
+        "10%"
+    ],
+    "temperature_vitrification": [
+        "35"
+    ],
+    "version": "1.8.1.57"
+}

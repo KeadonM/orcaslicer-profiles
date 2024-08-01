@@ -1,0 +1,49 @@
+{
+    "close_fan_the_first_x_layers": [
+        "2"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "18.8"
+    ],
+    "filament_flow_ratio": [
+        "0.988"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "Polymaker - Matte - Marble PLA - Tuned"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nSET_RETRACTION RETRACT_LENGTH=[filament_retraction_length] RETRACT_SPEED=[filament_retraction_speed] UNRETRACT_EXTRA_LENGTH=[retract_restart_extra] UNRETRACT_SPEED=[filament_deretraction_speed]"
+    ],
+    "filament_vendor": [
+        "Elegoo"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "inherits": "Elegoo Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Polymaker - Matte - Marble PLA - Tuned",
+    "nozzle_temperature_initial_layer": [
+        "205"
+    ],
+    "nozzle_temperature_range_high": [
+        "205"
+    ],
+    "pressure_advance": [
+        "0.0315"
+    ],
+    "slow_down_layer_time": [
+        "1"
+    ],
+    "version": "2.1.0.1"
+}
